@@ -8,4 +8,9 @@ class MoviesController < ApplicationController
     movie = Movie.find_by(params[:id])
     render json: movie.as_json
   end 
+
+  def display_sawII
+    movie = Movie.where(title = "Saw II")
+    render json: movie.as_json
+  end 
 end
