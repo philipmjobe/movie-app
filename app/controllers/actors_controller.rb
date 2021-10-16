@@ -1,7 +1,8 @@
 class ActorsController < ApplicationController
 
-  def single_actor
-    person = Actor.find_by id: 1
+  def actors 
+    input = params["id"]
+    person = Actor.find_by id: input
     render json: person.as_json
   end
 
