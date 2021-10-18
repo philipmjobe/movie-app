@@ -13,4 +13,5 @@ class MoviesController < ApplicationController
     movie = Movie.where(title = "Saw II")
     render json: movie.as_json
   end 
+
 end

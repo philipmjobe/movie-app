@@ -11,4 +11,9 @@ class ActorsController < ApplicationController
     render json: person.as_json
   end 
 
+  def single_actors
+    actor = Actor.find_by[:id]
+    render json: {message: actor.as_json}
+  end 
+
 end
