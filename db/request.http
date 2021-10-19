@@ -26,3 +26,29 @@ Content-Type: application/json
 ### ACTORS DESTROY
 
 DELETE http://localhost:3000/actors/7.json
+
+### MOVIES INDEX
+GET http://localhost:3000/movies.json
+
+### MOVIES CREATE
+POST http://localhost:3000/movies.json
+
+{
+  "title":
+  "year":
+  "plot":
+}
+
+### MOVIES SHOW
+GET http://localhost:3000/movies/1.json
+
+### MOVIES UPDATE
+PATCH http://localhost:3000/movies/1.json
+Content-Type: application/json
+
+{
+
+}
+
+### MOVIES DESTROY
+DELETE http://localhost:3000/movies/1.json
