@@ -32,11 +32,14 @@ GET http://localhost:3000/movies.json
 
 ### MOVIES CREATE
 POST http://localhost:3000/movies.json
+Content-Type: application/json
 
 {
-  "title":
-  "year":
-  "plot":
+  "title": "The Texas Chain Saw Massacre",
+  "year": 1974,
+  "plot": "The film follows a group of friends who fall victim to a family of cannibals while on their way to visit an old homestead.",
+  "director": "Tobe Hooper",
+  "english": "english"
 }
 
 ### MOVIES SHOW
@@ -51,4 +54,4 @@ Content-Type: application/json
 }
 
 ### MOVIES DESTROY
-DELETE http://localhost:3000/movies/1.json
+DELETE http://localhost:3000/movies/4.json
