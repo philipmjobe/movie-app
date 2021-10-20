@@ -28,9 +28,9 @@ class MoviesController < ApplicationController
 
   def destroy
     input = params["id"].to_i
-    movie - Movie.find_by id: input
+    movie = Movie.find_by id: input
     movie.destroy
-    render json: {message: Movie Destroyed}
+    render json: {message: "Movie Destroyed"}
   end 
 
 end
