@@ -10,17 +10,20 @@ Content-Type: application/json
   "first_name":
   "last_name":
   "known_for":
+  "gender":
+  "age":
 }
 
 ### ACTORS SHOW
 GET http://localhost:3000/actors/7.json
 
 ### ACTORS UPDATE
-PATCH http://localhost:3000/actors/7.json
+PATCH http://localhost:3000/actors/1.json
 Content-Type: application/json
 
 {
-
+  "gender": "male",
+  "age": 51
 }
 
 ### ACTORS DESTROY
