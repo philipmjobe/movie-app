@@ -28,7 +28,7 @@ Content-Type: application/json
 
 ### ACTORS DESTROY
 
-DELETE http://localhost:3000/actors/7.json
+DELETE http://localhost:3000/actors/5.json
 
 ### MOVIES INDEX
 GET http://localhost:3000/movies.json
