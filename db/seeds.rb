@@ -1,19 +1,20 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
-# Actor.create({first_name: "Kevin", last_name: "Smith", known_for: "Clerks"})
-# Actor.create({first_name: "Tony", last_name: "Todd", known_for: "Candyman"})
-# Actor.create({first_name: "Doug", last_name: "Bradley", known_for: "Hellraiser"})
-# Actor.create({first_name: "David Howard", last_name: "Thorton", known_for: "Terrifer"})
-# Actor.create({first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock"})
-# Actor.create({first_name: "Bill", last_name: "Moseley", known_for: "House of 1000 Corpses"})
-# Actor.create({first_name: "Kane", last_name: "Hodder", known_for: "Friday the 13th Part VII: The New Blood,"})
-
-# Movie.create({title: "Halloween", year: 1978, plot: "The plot tells about a mental patient who was committed to a sanitarium for murdering his babysitting teenage sister on Halloween night when he was six years old. Fifteen years later, he escapes and returns to his hometown, where he stalks a female babysitter and her friends, while under pursuit by his psychiatrist."})
-# Movie.create({title: "Train to Busan", year: 2016, plot: "The film mostly takes place on a high-speed train from Seoul to Busan as a zombie apocalypse suddenly breaks out in the country and threatens the safety of the passengers."})
-# Movie.create({title: "Phantasm", year: 1979, plot: "The first film in the Phantasm franchise, it introduces the Tall Man (Angus Scrimm), a supernatural and malevolent undertaker who turns the dead of Earth into dwarf zombies to be sent to his planet and used as slaves. He is opposed by a young boy, Mike (Michael Baldwin), who tries to convince his older brother Jody (Bill Thornbury) and family friend Reggie (Reggie Bannister) of the threat."})
+Actor.create!([
+#   {first_name: "Tony", last_name: "Todd", known_for: "Candyman", gender: nil, age: nil, movie_id: nil},
+#   {first_name: "Doug", last_name: "Bradley", known_for: "Hellraiser", gender: nil, age: nil, movie_id: nil},
+#   {first_name: "David Howard", last_name: "Thorton", known_for: "Terrifer", gender: nil, age: nil, movie_id: nil},
+#   {first_name: "Bill", last_name: "Moseley", known_for: "House of 1000 Corpses", gender: nil, age: nil, movie_id: nil},
+#   {first_name: "Kane", last_name: "Hodder", known_for: "Friday the 13th Part VII: The New Blood,", gender: nil, age: nil, movie_id: nil},
+#   {first_name: "Kevin", last_name: "Smith", known_for: "Clerks", gender: "male", age: 51, movie_id: nil}
+# ])
+# Movie.create!([
+#   {title: "Train to Busan", year: 2016, plot: "The film mostly takes place on a high-speed train from Seoul to Busan as a zombie apocalypse suddenly breaks out in the country and threatens the safety of the passengers.", director: nil, english: true},
+#   {title: "Phantasm", year: 1979, plot: "The first film in the Phantasm franchise, it introduces the Tall Man (Angus Scrimm), a supernatural and malevolent undertaker who turns the dead of Earth into dwarf zombies to be sent to his planet and used as slaves. He is opposed by a young boy, Mike (Michael Baldwin), who tries to convince his older brother Jody (Bill Thornbury) and family friend Reggie (Reggie Bannister) of the threat.", director: nil, english: true},
+#   {title: "The Texas Chain Saw Massacre", year: 1974, plot: "The film follows a group of friends who fall victim to a family of cannibals while on their way to visit an old homestead.", director: "Tobe Hooper", english: true},
+#   {title: "Halloween", year: 1978, plot: "The plot tells about a mental patient who was committed to a sanitarium for murdering his babysitting teenage sister on Halloween night when he was six years old. Fifteen years later, he escapes and returns to his hometown, where he stalks a female babysitter and her friends, while under pursuit by his psychiatrist.", director: "John Carpenter", english: true},
+#   {title: "Clerks", year: 1994, plot: "it presents a day in the lives of titular store clerks Dante Hicks (O'Halloran) and Randal Graves (Anderson), along with their acquaintances.", director: nil, english: true},
+#   {title: "Candyman", year: 1992, plot: "the film follows a Chicago graduate student completing a thesis on urban legends and folklore, which leads her to the legend of the Candyman, the ghost of an artist and the son of a slave who was murdered in the late 19th century for his relationship with the daughter of a wealthy white man.", director: nil, english: true},
+#   {title: "Hellraiser", year: 1987, plot: "ts plot involves a mystical puzzle box which summons the Cenobites, a group of extra-dimensional, sadomasochistic beings who cannot differentiate between pain and pleasure", director: nil, english: true},
+#   {title: "Terrifier", year: 2016, plot: "Art the Clown, who hunts three young women played by Kannell, Scaffidi, and Corcoran on Halloween.", director: nil, english: true},
+#   {title: "House of 1000 Corpses", year: 2003, plot: "The plot centers on a group of teenagers who are kidnapped and tortured by a psychotic family, during Halloween, after traveling across the country to write a book.", director: nil, english: true},
+#   {title: "Friday the 13th Part VII: The New Blood", year: 1988, plot: "Set years after the events of Friday the 13th Part VI: Jason Lives, the plot follows a psychokinetic teenage girl (Lincoln) who unwittingly releases Jason from his tomb at the bottom of Crystal Lake, allowing him to go on another killing spree in the area.", director: nil, english: true}
+# ])
