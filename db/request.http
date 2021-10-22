@@ -49,7 +49,7 @@ Content-Type: application/json
 GET http://localhost:3000/movies/1.json
 
 ### MOVIES UPDATE
-PATCH http://localhost:3000/movies/1.json
+PATCH http://localhost:3000/movies/2.json
 Content-Type: application/json
 
 {
@@ -58,4 +58,4 @@ Content-Type: application/json
 }
 
 ### MOVIES DESTROY
-DELETE http://localhost:3000/movies/4.json
+DELETE http://localhost:3000/movies/5.json
