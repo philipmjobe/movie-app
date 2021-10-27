@@ -59,3 +59,15 @@ Content-Type: application/json
 
 ### MOVIES DESTROY
 DELETE http://localhost:3000/movies/5.json
+
+
+### Users create (signup)
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Test name",
+  "email": "test@test.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
