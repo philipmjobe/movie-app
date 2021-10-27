@@ -16,4 +16,7 @@ Rails.application.routes.draw do
 
 ### USERS RESTFUL ACTIONS
   post "/users" => "users#create"
+
+### SESSIONS RESTFUL ACTIONS
+  post "/sessions" => "sessions#create"
 end
