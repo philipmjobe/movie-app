@@ -1,4 +1,4 @@
-Actor.create!([
+#Actor.create!([
 #   {first_name: "Tony", last_name: "Todd", known_for: "Candyman", gender: nil, age: nil, movie_id: nil},
 #   {first_name: "Doug", last_name: "Bradley", known_for: "Hellraiser", gender: nil, age: nil, movie_id: nil},
 #   {first_name: "David Howard", last_name: "Thorton", known_for: "Terrifer", gender: nil, age: nil, movie_id: nil},
@@ -14,3 +14,13 @@ Actor.create!([
 #   {title: "House of 1000 Corpses", year: 2003, plot: "The plot centers on a group of teenagers who are kidnapped and tortured by a psychotic family, during Halloween, after traveling across the country to write a book.", director: nil, english: true},
 #   {title: "Friday the 13th Part VII: The New Blood", year: 1988, plot: "Set years after the events of Friday the 13th Part VI: Jason Lives, the plot follows a psychokinetic teenage girl (Lincoln) who unwittingly releases Jason from his tomb at the bottom of Crystal Lake, allowing him to go on another killing spree in the area.", director: nil, english: true}
 # ])
+
+# Genre.create(name: "Horror")
+# Genre.create(name: "Comedy")
+
+# MovieGenre.create(movie_id: 6, genre_id: 2)
+# MovieGenre.create(movie_id: 7, genre_id: 1)
+# MovieGenre.create(movie_id: 8, genre_id: 1)
+# MovieGenre.create(movie_id: 9, genre_id: 1)
+# MovieGenre.create(movie_id: 10, genre_id: 1)
+# MovieGenre.create(movie_id: 11, genre_id: 1)
