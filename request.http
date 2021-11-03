@@ -58,7 +58,8 @@ Content-Type: application/json
 }
 
 ### MOVIES DESTROY
-DELETE http://localhost:3000/movies/5.json
+DELETE http://localhost:3000/movies/18.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzYwNjE2MTN9.0Xoj8kQlMOwEYjaI-saF67aAvn_zJyfblsgAihntb44
 
 
 ### Users create (signup)
@@ -66,10 +67,10 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-  "name": "Jenn",
-  "email": "jenn@example.com",
-  "password": "password2",
-  "password_confirmation": "password2"
+  "name": "Philip",
+  "email": "phil@example.com",
+  "password": "password1",
+  "password_confirmation": "password1"
 }
 
 
@@ -78,6 +79,6 @@ POST http://localhost:3000/sessions
 Content-Type: application/json
 
 {
-  "email": "test@test.com",
-  "password": "password"
+  "email": "jenn@example.com",
+  "password": "password2"
 }

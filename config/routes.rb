@@ -19,4 +19,7 @@ Rails.application.routes.draw do
 
 ### SESSIONS RESTFUL ACTIONS
   post "/sessions" => "sessions#create"
+
+### GENRES RESTFUL ACTIONS
+  post "genres" => "genres#create"
 end
