@@ -15,12 +15,12 @@ Actor.create!([
   {first_name: "Kevin", last_name: "Smith", known_for: "Clerks", gender: "male", age: 51, movie_id: nil}
 ])
 
-Genre.create(name: "Horror")
-Genre.create(name: "Comedy")
+# Genre.create(name: "Horror")
+# Genre.create(name: "Comedy")
 
-MovieGenre.create(movie_id: 6, genre_id: 2)
-MovieGenre.create(movie_id: 7, genre_id: 1)
-MovieGenre.create(movie_id: 8, genre_id: 1)
-MovieGenre.create(movie_id: 9, genre_id: 1)
-MovieGenre.create(movie_id: 10, genre_id: 1)
-MovieGenre.create(movie_id: 11, genre_id: 1)
+# MovieGenre.create(movie_id: 6, genre_id: 2)
+# MovieGenre.create(movie_id: 7, genre_id: 1)
+# MovieGenre.create(movie_id: 8, genre_id: 1)
+# MovieGenre.create(movie_id: 9, genre_id: 1)
+# MovieGenre.create(movie_id: 10, genre_id: 1)
+# MovieGenre.create(movie_id: 11, genre_id: 1)

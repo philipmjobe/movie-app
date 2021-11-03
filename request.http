@@ -4,14 +4,15 @@ GET http://localhost:3000/actors.json
 ### ACTORS CREATE
 
 POST http://localhost:3000/actors.json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2MzYwNjMyMjB9.HG1oMgarZGy653NCCDODvwiuYrkFpM6p1-_iJKbKAwI
 Content-Type: application/json
 
 {
-  "first_name":
-  "last_name":
-  "known_for":
-  "gender":
-  "age":
+  "first_name": "Kevin",
+  "last_name": "Smith",
+  "known_for": "Clerks",
+  "gender": "male",
+  "age": 51
 }
 
 ### ACTORS SHOW
@@ -79,6 +80,6 @@ POST http://localhost:3000/sessions
 Content-Type: application/json
 
 {
-  "email": "jenn@example.com",
-  "password": "password2"
+  "email": "phil@example.com",
+  "password": "password1"
 }
