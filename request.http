@@ -4,7 +4,7 @@ GET http://localhost:3000/actors.json
 ### ACTORS CREATE
 
 POST http://localhost:3000/actors.json 
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2MzYwNjMyMjB9.HG1oMgarZGy653NCCDODvwiuYrkFpM6p1-_iJKbKAwI
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzYwNjM5MzJ9.z5Q1kMK0CVbuTdgA-Gz5rzBLHMyZLJMTjMwIgH0AqJc
 Content-Type: application/json
 
 {
@@ -59,8 +59,8 @@ Content-Type: application/json
 }
 
 ### MOVIES DESTROY
-DELETE http://localhost:3000/movies/18.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzYwNjE2MTN9.0Xoj8kQlMOwEYjaI-saF67aAvn_zJyfblsgAihntb44
+DELETE http://localhost:3000/movies/12.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzYwNjM4MDB9.4aPPKPb-NRvmqkuJVNytExKc2cJr-QRDS7IV8br7Pig
 
 
 ### Users create (signup)
