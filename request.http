@@ -36,13 +36,14 @@ GET http://localhost:3000/movies.json
 
 ### MOVIES CREATE
 POST http://localhost:3000/movies.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzYyMDI1NTd9.AWUSsL5dcgdEALKQ4JWJ1R68-YXKcI9pQ1jNrl_qiM4
 Content-Type: application/json
 
 {
-  "title": "The Texas Chain Saw Massacre",
-  "year": 1974,
-  "plot": "The film follows a group of friends who fall victim to a family of cannibals while on their way to visit an old homestead.",
-  "director": "Tobe Hooper",
+  "title": "The Silence of the Lambs",
+  "year": 1991,
+  "plot": "It stars Jodie Foster as Clarice Starling, a young FBI trainee who is hunting a serial killer, Buffalo Bill (Ted Levine), who skins his female victims. To catch him, she seeks the advice of the imprisoned Dr. Hannibal Lecter (Anthony Hopkins), a brilliant psychiatrist and cannibalistic serial killer.",
+  "director": "Jonathan Demme",
   "english": "english"
 }
 
@@ -82,4 +83,15 @@ Content-Type: application/json
 {
   "email": "phil@example.com",
   "password": "password1"
+}
+
+### MOVIE GENRE CREATE
+
+POST http://localhost:3000/movie_genres
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzYyMDI1NTd9.AWUSsL5dcgdEALKQ4JWJ1R68-YXKcI9pQ1jNrl_qiM4
+Content-Type: application/json
+
+{
+  "movie_id": 13,
+  "genre_id": 3
 }

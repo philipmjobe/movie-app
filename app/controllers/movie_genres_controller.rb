@@ -1,6 +1,6 @@
 class MovieGenresController < ApplicationController
   def create
-    genre = Genre.new(movie_id: params[movie_id], genre_id: params[genre_id])
+    genre = Genre.new(movie_id: params[:movie_id], genre_id: params[:genre_id])
 
     if genre.save
       render json: genre
