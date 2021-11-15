@@ -9,7 +9,7 @@
 #   allow do
 #     origins 'example.com'
 
-#     resource 'http://localhost:8080',
+#     resource '*',
 #       headers: :any,
 #       methods: [:get, :post, :put, :patch, :delete, :options, :head]
 #   end
